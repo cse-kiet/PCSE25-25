@@ -9,35 +9,25 @@ Gaurav Kumar
 Ashish Prasad
 
 Steps for Execution:
-Dataset Selection & Preparation
+1) Dataset Selection & Preparation
+     Collected and preprocessed five datasets: Email (Spam), Banking, Diabetes, Heart Attack, and Iris.
+     Applied encoding, missing value treatment, normalization, and vectorization (TF-IDF for text data).
 
-Collected and preprocessed five datasets: Email (Spam), Banking, Diabetes, Heart Attack, and Iris.
+2) Baseline Model Training
+     Trained four ML models (SVM, Logistic Regression, Random Forest, Decision Tree) on clean datasets.
+     Tuned hyperparameters using Grid Search with 5-fold cross-validation.
 
-Applied encoding, missing value treatment, normalization, and vectorization (TF-IDF for text data).
+3) Label Poisoning Simulation
+     Introduced label flipping at 5%, 10%, and 20% levels on the training data.
+     Retained original test set for performance evaluation.
 
-Baseline Model Training
+4) Model Retraining & Evaluation
+     Re-trained the same models with poisoned datasets.
+     Compared performance using metrics like Accuracy, Precision, Recall, and F1-Score.
 
-Trained four ML models (SVM, Logistic Regression, Random Forest, Decision Tree) on clean datasets.
-
-Tuned hyperparameters using Grid Search with 5-fold cross-validation.
-
-Label Poisoning Simulation
-
-Introduced label flipping at 5%, 10%, and 20% levels on the training data.
-
-Retained original test set for performance evaluation.
-
-Model Retraining & Evaluation
-
-Re-trained the same models with poisoned datasets.
-
-Compared performance using metrics like Accuracy, Precision, Recall, and F1-Score.
-
-Robustness Analysis
-
-Visualized performance drop across models and datasets.
-
-Ranked classifiers based on resilience to poisoning.
+5) Robustness Analysis
+     Visualized performance drop across models and datasets.
+     Ranked classifiers based on resilience to poisoning.
 
 ## Checklist:
 1. Final Project Report
