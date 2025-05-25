@@ -1,4 +1,4 @@
-Title of Project:
+[Title of Project]:
 A Study to Evaluate Effects of Data Poisoning on Machine Learning Model
 
 Team Members:
