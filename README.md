@@ -1,6 +1,6 @@
-## Title of Project:[A Study to Evaluate Effects of Data Poisoning on Machine Learning Model]
+## Title of Project: A Study to Evaluate Effects of Data Poisoning on Machine Learning Model
 
-##Team Members:
+## Team Members:
 Deepanshu Mishra
 
 Gaurav Kumar
