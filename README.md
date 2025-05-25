@@ -1,15 +1,43 @@
-# Title of Project: [PROJECT_TITLE_HERE]
+Title of Project:
+A Study to Evaluate Effects of Data Poisoning on Machine Learning Model
 
-## Team Members:
-1. [TEAM_MEMBER_1_NAME]
-2. [TEAM_MEMBER_2_NAME]
-3. [TEAM_MEMBER_3_NAME]
-4. [TEAM_MEMBER_4_NAME]
+Team Members:
+Deepanshu Mishra
 
-## Steps for Execution:
-1. [STEP 1]
-2. [STEP 2]
-   (Add more steps as needed)
+Gaurav Kumar
+
+Ashish Prasad
+
+Steps for Execution:
+Dataset Selection & Preparation
+
+Collected and preprocessed five datasets: Email (Spam), Banking, Diabetes, Heart Attack, and Iris.
+
+Applied encoding, missing value treatment, normalization, and vectorization (TF-IDF for text data).
+
+Baseline Model Training
+
+Trained four ML models (SVM, Logistic Regression, Random Forest, Decision Tree) on clean datasets.
+
+Tuned hyperparameters using Grid Search with 5-fold cross-validation.
+
+Label Poisoning Simulation
+
+Introduced label flipping at 5%, 10%, and 20% levels on the training data.
+
+Retained original test set for performance evaluation.
+
+Model Retraining & Evaluation
+
+Re-trained the same models with poisoned datasets.
+
+Compared performance using metrics like Accuracy, Precision, Recall, and F1-Score.
+
+Robustness Analysis
+
+Visualized performance drop across models and datasets.
+
+Ranked classifiers based on resilience to poisoning.
 
 ## Checklist:
 1. Final Project Report
@@ -18,6 +46,4 @@
 4. Synopsis
 5. Final Presentation
 6. Source Code
-7. Database dump (.sql file)
-8. If a web project, then a Docker file for deployment
-9. README (This file)
+7. README (This file)
