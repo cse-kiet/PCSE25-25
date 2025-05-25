@@ -1,14 +1,13 @@
-[Title of Project]:
-A Study to Evaluate Effects of Data Poisoning on Machine Learning Model
+## Title of Project:[A Study to Evaluate Effects of Data Poisoning on Machine Learning Model]
 
-Team Members:
+##Team Members:
 Deepanshu Mishra
 
 Gaurav Kumar
 
 Ashish Prasad
 
-Steps for Execution:
+## Steps for Execution:
 1) Dataset Selection & Preparation
      Collected and preprocessed five datasets: Email (Spam), Banking, Diabetes, Heart Attack, and Iris.
      Applied encoding, missing value treatment, normalization, and vectorization (TF-IDF for text data).
